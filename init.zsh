@@ -6,17 +6,15 @@
 #   David Crook <idcrook@users.noreply.github.com>
 #
 
-#
-# General
-#
-
 # Return if requirements are not found.
 if (( ! ${+commands[kubectl]} )); then
   return 1
 fi
 
+# Load dependencies.
+#pmodload 'helper'
+
 # Enable completion for 'kubectl'.
-#cache_file="${0:h}/cache.zsh"
 cache_file="${XDG_CACHE_HOME:-$HOME/.cache}/prezto/kubernetes-cache.zsh"
 kubectl_command="${commands[kubectl]}"
 
