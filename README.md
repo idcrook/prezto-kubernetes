@@ -54,3 +54,8 @@ Aliases
 -	`kbkg` get
 -	`kbkl` logs
 -	`kbklf` logs --follow
+
+
+## Acknowledgments
+
+Inspired by and based on [prezto-contrib/kubernetes at master · belak/prezto-contrib](https://github.com/belak/prezto-contrib/tree/master/kubernetes)
